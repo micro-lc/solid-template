@@ -1,11 +1,13 @@
-import MicroLcLogo from './logo.svg'
+import Logo from './Logo'
 import styles from './App.module.css'
 
 function App () {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <MicroLcLogo class={styles.logo} />
+        <div class={styles.logo}>
+          <Logo />
+        </div>
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
