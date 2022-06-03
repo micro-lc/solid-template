@@ -1,5 +1,6 @@
 /* @refresh reload */
 import {render} from 'solid-js/web'
+import {renderWithQiankun, qiankunWindow} from 'vite-plugin-qiankun/dist/helper'
 
 import './index.css'
 import App from './App'
@@ -16,18 +17,16 @@ function renderApp (props) {
   render(() => <App />, appContainer)
 }
 
-export async function mount (props) {
-  renderApp(props)
-}
+renderWithQiankun({
+  mount (props) {
+    renderApp(props)
+  },
+  bootstrap () {},
+  unmount () {
+    appContainer.textContent = ''
+  }
+})
 
-export async function unmount () {
-  appContainer.textContent = ''
-}
-
-export async function bootstrap () {
-
-}
-
-if (!window.__POWERED_BY_QIANKUN__) {
+if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
   renderApp({})
 }

@@ -18,7 +18,9 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-solid": "^0.6.1",
     "vite": "^2.9.9",
-    "vite-plugin-solid": "^2.2.6"
+    "vite-plugin-qiankun": "^1.0.14",
+    "vite-plugin-solid": "^2.2.6",
+    "vite-plugin-solid-svg": "^0.2.0"
   },
   "dependencies": {
     "solid-js": "^1.4.2"
