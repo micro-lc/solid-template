@@ -25,4 +25,5 @@ jobs:
           version: 7.1.7
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
+      - run: pnpm test
       - run: pnpm build
