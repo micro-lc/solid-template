@@ -40,5 +40,5 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 [github-actions]: https://github.com/micro-lc/micro-lc-solid-template/actions
 [github-actions-svg]: https://github.com/micro-lc/micro-lc-solid-template/workflows/Template%20CI/badge.svg
-[coverall-svg]: https://coveralls.io/repos/github/micro-lc/micro-lc-solid-template/badge.svg?branch=master
-[coverall-io]: https://coveralls.io/github/micro-lc/micro-lc-solid-template?branch=master
+[coverall-svg]: https://coveralls.io/repos/github/micro-lc/micro-lc-solid-template/badge.svg?branch=main
+[coverall-io]: https://coveralls.io/github/micro-lc/micro-lc-solid-template?branch=main
