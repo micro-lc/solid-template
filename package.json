@@ -30,8 +30,5 @@
   },
   "dependencies": {
     "solid-js": "^1.4.2"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   }
 }
