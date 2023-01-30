@@ -21,7 +21,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-solid": "^0.7.0",
     "jsdom": "^20.0.0",
-    "solid-testing-library": "^0.3.0",
+    "solid-testing-library": "^0.5.1",
     "vite": "^2.9.9",
     "vite-plugin-qiankun": "^1.0.14",
     "vite-plugin-solid": "^2.2.6",
